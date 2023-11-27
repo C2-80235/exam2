@@ -24,7 +24,7 @@ pipeline {
         }
         stage ('delete docker service') {
             steps {
-                sh '/usr/bin/docker service rm exam-service'
+                sh '/usr/bin/docker service rm exam-service-2'
             }
         }
         stage ('start docker service') {
